@@ -459,155 +459,18 @@
     color: var(--cadet-gray);
     font-family: var(--ff-catamaran);
     text-align: center;
-    height: 50vh;
     padding-block-start: calc(var(--section-padding) + 80px);
     padding-block-end: 0;
     overflow: hidden;
-  }
-  
-  .hero .section-text{
-    font-size: 14pt;
-  }
-
-  .title-1{
-    color: var(--white);
+    flex-direction: rows;
   }
 
 
 
-  /*-----------------------------------*\
-    #values
-  \*-----------------------------------*/
-
-  .values{
-    color: var(--cadet-gray);
-    font-family: var(--ff-catamaran);
-    text-align: center;
-    padding-block-start: 5%;
-    padding-block-end: 0;
-    overflow: hidden;
-  }
-  
-  .about-one > .title-1{
-    color: var(--coquelicot);
-  }
-  .about-one > .section-text{
-    color:  #010101;
-    font-weight: var(--fw-500);
-    font-size: 14pt;
-  }
-
-  .inte-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
-
-  .inte-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
-  
-  .account-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
-
-  .account-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
-
-  .innovation-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
-
-  .innovation-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
-
-  .customer-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
-
-  .customer-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
-
-  .teamwork-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
-
-  .teamwork-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
 
 
-.icons{
-    margin-top: 5rem;
-}
 
-.row-2{
-    margin-top: 5rem;
-}
 
-  /*-----------------------------------*\
-    #meet our team
-  \*-----------------------------------*/
-
-  .about__meet{
-    color: var(--cadet-gray);
-    font-family: var(--ff-catamaran);
-    text-align: center;
-    padding-block-start: 5%;
-    padding-block-end: 0;
-    overflow: hidden;
-    margin-top: 5rem;
-  }
-
-  .title-1{
-    color: var(--coquelicot);
-  }
-
-  .sub-title > .section-text{
-    color:  #010101;
-    font-weight: var(--fw-500);
-    font-size: 13pt;
-    margin-bottom: 5rem;
-  }
-
-  .sub-title{
-    margin-bottom: 5rems;
-  }
-
-  .row__front{
-    margin-bottom: 5rem;
-  }
-
-  .row__back{
-    margin-bottom: 15rem;
-  }
-
-  .name__owner{
-    color: var(--coquelicot);
-    font-size: 18pt;
-    font-weight: var(--fw-800);
-  }
 
 
   /*-----------------------------------*\
@@ -852,7 +715,33 @@
     /**
      * HERO
      */
+     .hero-colm-2{
+     width: 832px;
+     height: 630px;
+     background-color: #131313;
+     padding: 30px;
+     border-radius: 3px;
+     box-shadow: 0px 30px 50px #000;
+   }
+  
+   .hero-colm-2 img{
+    margin-left:30rem;
+    margin-top: 3.5rem;
+  }
 
+     .hero-colm-3{
+      width: 832px;
+      height: 630px;
+      background-color: #333;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+    }
+  
+    .hero-colm-3 img{
+      margin-left:30rem;
+      margin-top: 3.5rem;
+    }
   
 
   
@@ -1019,6 +908,73 @@
      * HERO
      */
      
+     .hero-colm-1{
+      background-color: #000 ;
+      width: 310px;
+      height: 630px;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0px 30px 50px #000;
+      margin-left: 3rem;
+    }
+
+    .title-1 {
+      margin-block: 30px 8px;
+      color:var(--coquelicot) ; 
+      font-size: 25pt;
+   }
+
+    .title-2 {
+      font-size: 20pt;
+      margin-block: 30px 8px;
+      color:var(--white) ; 
+   }
+
+    #sp-1{
+      color: #f5d10d;
+      font-size: 10pt;
+     }
+    
+     #sp-2{
+        color: #4dc247 ;
+        font-size: 10pt;
+      }
+    
+      #sp-3{
+        color: #e60000;
+        font-size: 10pt;
+      }
+    
+      #sp-4{
+        color: #ff6600 ;
+        font-size: 10pt;
+      }
+
+    .hero-colm-2{
+      width: 310px;
+      height: 630px;
+      background-color: #131313;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+    }
+
+    .hero-colm-2 img{
+      display: none;
+    }
+  
+    .hero-colm-3{
+      width: 311px;
+      height: 630px;
+      background-color: #333;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+    }
+  
+    .hero-colm-3 img{
+      display: none;
+    }
   
     /**
      * FOOTER
@@ -1098,7 +1054,73 @@
      * HERO
      */
   
- 
+     .hero-colm-1{
+      background-color: #000 ;
+      width: 380px;
+      height: 630px;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0px 30px 50px #000;
+      margin-left: 3rem;
+    }
+
+    .title-1 {
+      margin-block: 30px 8px;
+      color:var(--coquelicot) ; 
+      font-size: 35pt;
+   }
+
+    .title-2 {
+      font-size: 30pt;
+      margin-block: 30px 8px;
+      color:var(--white) ; 
+   }
+
+    #sp-1{
+      color: #f5d10d;
+      font-size: 12pt;
+     }
+    
+     #sp-2{
+        color: #4dc247 ;
+        font-size: 12pt;
+      }
+    
+      #sp-3{
+        color: #e60000;
+        font-size: 12pt;
+      }
+    
+      #sp-4{
+        color: #ff6600 ;
+        font-size: 12pt;
+      }
+
+    .hero-colm-2{
+      width: 380px;
+      height: 630px;
+      background-color: #131313;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+    }
+
+    .hero-colm-2 img{
+      display: none;
+    }
+  
+    .hero-colm-3{
+      width: 380px;
+      height: 630px;
+      background-color: #333;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+    }
+  
+    .hero-colm-3 img{
+      display: none;
+    }
   
   
   
@@ -1111,5 +1133,167 @@
   
   }
 
+  @media (min-width: 1600px) {
+   
+    .hero-colm-1{
+      background-color: #000 ;
+      width: 832px;
+      height: 630px;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0px 30px 50px #000;
+      margin-left: 3rem;
+      text-align: left;
+    }
 
+    .title-1 {
+      margin-block: 30px 8px;
+      color:var(--coquelicot) ; 
+      font-size: 35pt;
+   }
 
+    .title-2 {
+      font-size: 30pt;
+      margin-block: 30px 8px;
+      color:var(--white) ; 
+   }
+
+    #sp-1{
+      color: #f5d10d;
+      font-size: 12pt;
+     }
+    
+     #sp-2{
+        color: #4dc247 ;
+        font-size: 12pt;
+      }
+    
+      #sp-3{
+        color: #e60000;
+        font-size: 12pt;
+      }
+    
+      #sp-4{
+        color: #ff6600 ;
+        font-size: 12pt;
+      }
+
+    .hero-colm-2{
+      width: 380px;
+      height: 630px;
+      background-color: #131313;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+      text-align: left;
+    }
+
+    .hero-colm-2 img{
+      display: block;
+    }
+  
+    .hero-colm-3{
+      width: 380px;
+      height: 630px;
+      background-color: #333;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+      text-align: left;
+    }
+  
+    .hero-colm-3 img{
+      display: block;
+
+    }
+
+  }
+
+  @media (min-width: 1800px) {
+   
+    .hero-colm-1{
+      background-color: #000 ;
+      width: 832px;
+      height: 630px;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0px 30px 50px #000;
+      margin-left: 4rem;
+      text-align: left;
+    }
+
+    .title-1 {
+      margin-block: 30px 8px;
+      color:var(--coquelicot) ; 
+      font-size: 45pt;
+   }
+
+   .section-text{
+    font-size: 14pt;
+   }
+
+    .title-2 {
+      font-size: 30pt;
+      margin-block: 30px 8px;
+      color:var(--white) ; 
+   }
+
+    #sp-1{
+      color: #f5d10d;
+      font-size: 14pt;
+     }
+    
+     #sp-2{
+        color: #4dc247 ;
+        font-size: 14pt;
+      }
+    
+      #sp-3{
+        color: #e60000;
+        font-size: 14pt;
+      }
+    
+      #sp-4{
+        color: #ff6600 ;
+        font-size: 14pt;
+      }
+
+    .hero-colm-2{
+      width: 441px;
+      height: 630px;
+      background-color: #131313;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+      text-align: left;
+    }
+
+    .hero-colm-2 img{
+      display: block;
+      margin-left: 17rem;
+      margin-top: 2.2rem;
+    }
+  
+    .hero-colm-3{
+      text-align: left;
+      width: 441px;
+      height: 630px;
+      background-color: #333;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+    }
+  
+    .hero-colm-3 img{
+      display: block;
+      margin-left: 17rem;
+      margin-top: 2.2rem;
+    }
+
+  }
+
+  @media (min-width: 1920px) {
+    .hero-colm-1{
+      margin-left: 9rem;
+    }
+  }
