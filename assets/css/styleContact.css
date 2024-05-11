@@ -451,163 +451,76 @@
     
   
   /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
-  
-
-  .hero{
-    color: var(--cadet-gray);
-    font-family: var(--ff-catamaran);
-    text-align: center;
-    height: 50vh;
-    padding-block-start: calc(var(--section-padding) + 80px);
-    padding-block-end: 0;
-    overflow: hidden;
-  }
-  
-  .hero .section-text{
-    font-size: 14pt;
-  }
-
-  .title-1{
-    color: var(--white);
-  }
-
-
-
-  /*-----------------------------------*\
-    #values
+    #CONTACT US
   \*-----------------------------------*/
 
-  .values{
-    color: var(--cadet-gray);
-    font-family: var(--ff-catamaran);
-    text-align: center;
-    padding-block-start: 5%;
-    padding-block-end: 0;
-    overflow: hidden;
-  }
-  
-  .about-one > .title-1{
-    color: var(--coquelicot);
-  }
-  .about-one > .section-text{
-    color:  #010101;
-    font-weight: var(--fw-500);
-    font-size: 14pt;
-  }
+    .form-area {
+        background: #151515;
+        color: var(--cadet-gray);
+        font-family: var(--ff-catamaran);
+        padding-block-start: calc(var(--section-padding) + 50px);
+        padding-block-end: 0;
+        overflow: hidden;
+        flex-direction: rows;
 
-  .inte-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
+    }
+    .form-nation{
+        margin-bottom: 10rem;
+        margin-top: 3rem;
+    }
+    .row.single-form {
+        box-shadow: 0px 30px 50px #000;
+    }
+    .left {
+        background: var(--coquelicot);
+        padding: 200px 70px;
+    }
+    .left h2 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 48px;
+    }
+    .left span {
+        font-weight: 400;
+        font-family: var(--ff-rubik);
+    }
+    .single-form{
+        background: #fff;
+    }
+    .right {
+        padding: 70px 100px;
+        position: relative;
+    }
+    .form-control {
+        border: 2px solid #000;
+    }
 
-  .inte-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
-  
-  .account-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
+    .right button {
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
 
-  .account-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
+    #yourName{
+        height: 4rem;
+    }
 
-  .innovation-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
+    #emailAddress{
+        height: 4rem;
+    }
 
-  .innovation-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
-
-  .customer-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
-
-  .customer-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
-
-  .teamwork-col > .title-2{
-    font-size: 25pt;
-    color: #000;
-    font-weight: var(--fw-700);
-  }
-
-  .teamwork-col > .section-text{
-    font-size: 12pt;
-    color: #010101;
-    font-weight: var(--fw-500);
-  }
+    #yourMessage{
+        height: 9rem;
+    }
 
 
-.icons{
-    margin-top: 5rem;
-}
 
-.row-2{
-    margin-top: 5rem;
-}
 
-  /*-----------------------------------*\
-    #meet our team
-  \*-----------------------------------*/
 
-  .about__meet{
-    color: var(--cadet-gray);
-    font-family: var(--ff-catamaran);
-    text-align: center;
-    padding-block-start: 5%;
-    padding-block-end: 0;
-    overflow: hidden;
-    margin-top: 5rem;
-  }
 
-  .title-1{
-    color: var(--coquelicot);
-  }
 
-  .sub-title > .section-text{
-    color:  #010101;
-    font-weight: var(--fw-500);
-    font-size: 13pt;
-    margin-bottom: 5rem;
-  }
 
-  .sub-title{
-    margin-bottom: 5rems;
-  }
-
-  .row__front{
-    margin-bottom: 5rem;
-  }
-
-  .row__back{
-    margin-bottom: 15rem;
-  }
-
-  .name__owner{
-    color: var(--coquelicot);
-    font-size: 18pt;
-    font-weight: var(--fw-800);
-  }
 
 
   /*-----------------------------------*\
@@ -852,7 +765,33 @@
     /**
      * HERO
      */
+     .hero-colm-2{
+     width: 832px;
+     height: 630px;
+     background-color: #131313;
+     padding: 30px;
+     border-radius: 3px;
+     box-shadow: 0px 30px 50px #000;
+   }
+  
+   .hero-colm-2 img{
+    margin-left:30rem;
+    margin-top: 3.5rem;
+  }
 
+     .hero-colm-3{
+      width: 832px;
+      height: 630px;
+      background-color: #333;
+      padding: 30px;
+      border-radius: 3px;
+      box-shadow: 0px 30px 50px #000;
+    }
+  
+    .hero-colm-3 img{
+      margin-left:30rem;
+      margin-top: 3.5rem;
+    }
   
 
   
@@ -869,7 +808,37 @@
   
   
   
-  
+    @media (min-width:768px) and (max-width:991px){
+        .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }
+    }
+
+    @media (max-width:767px){
+        .left {
+    padding: 90px 15px;
+    text-align: center;
+    }
+    .left h2 {
+    font-size: 25px;
+    }
+    .right {
+    padding: 25px;
+    }
+    .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 46%;
+    }
+        .right button {
+        width: 150px;
+        padding: 12px 0;
+    }
+        
+    }
+
   
   /**
    * responsive for larger than 768px screen
@@ -924,7 +893,37 @@
   
   }
   
-  
+  @media (min-width:768px) and (max-width:991px){
+    .right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+    .left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+    .right button {
+	width: 150px;
+	padding: 12px 0;
+}
+    
+}
+
   
   
   
@@ -1013,13 +1012,6 @@
   
     .header.active .btn:is(:hover, :focus) { background-color: var(--rich-black-fogra-29-1); }
   
-  
-  
-    /**
-     * HERO
-     */
-     
-  
     /**
      * FOOTER
      */
@@ -1093,12 +1085,7 @@
     .header .container { padding-inline: 0; }
   
   
-  
-    /**
-     * HERO
-     */
-  
- 
+
   
   
   
@@ -1112,4 +1099,4 @@
   }
 
 
-
+ 

@@ -209,7 +209,7 @@
   
   .section { padding-block: var(--section-padding); }
   
-  .bg-dark {
+  .dark-bg{
     background-color: #010101;
     color: var(--silver-metallic);
   }

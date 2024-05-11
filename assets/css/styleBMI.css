@@ -170,8 +170,8 @@
   
   .section { padding-block: var(--section-padding); }
   
-  .bg-dark {
-    background-color: #010101;
+  .dark-bg {
+    background-color: #161616;
     color: var(--silver-metallic);
   }
   
@@ -475,6 +475,10 @@
     color: #131313;
     font-weight: 400;
     font-size: 1em;
+  }
+
+  .bmi__calc{
+    margin-bottom: 10rem;
   }
 
   .hero-colm-1{

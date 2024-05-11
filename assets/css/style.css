@@ -171,8 +171,13 @@ body {
 
 .section { padding-block: var(--section-padding); }
 
-.bg-dark {
+.dark-bg {
   background-color: #161616;
+  color: var(--silver-metallic);
+}
+
+.bg-dark {
+  background-color: #212529;
   color: var(--silver-metallic);
 }
 
