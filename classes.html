@@ -21,6 +21,11 @@
         href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
         rel="stylesheet">
 
+              <!-- 
+    - Animation On Scroll
+  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
           <!-- 
@@ -81,50 +86,64 @@
         </div>
       </header>
 
-      <!-- 
-    - #CLASSES MOBILE
+
+          <!-- 
+    - #CLASSES LARGER
   -->
-        <section class="classes__strength-mobile hero dark-bg has-after has-bg-image" id="home" aria-label="hero" data-section style="background-image: url('./assets/images/hero-bg.png')">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <h1 class="h1 title-1">Programs</h1>
-                        <p class="subtitle mt-4">Start your fitness journey with us! Our programs, cater to all levels and goals. From strength training to weight loss, we're here to empower you. Join our community and discover a healthier, stronger you. Let's begin your journey today!</p>
-                    </div>
-                </div>
+ <!-- Hero Section -->
+ <section id="home" class="section hero dark-bg text-light d-flex align-items-center" style="background-image: url('assets/images/hero-bg.png') ">
+  <div class="container mb-5">
+      <h1 class="h1 title-1" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1500">Welcome to Our Gym</h1>
+      <p class="section-text" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">Start your fitness journey with us! Our programs cater to all levels and goals.</p>
+      <a href="#strength" class="btn btn-primary btn-lg mt-4" data-aos="flip-up" data-aos-delay="1000" data-aos-duration="1500">Explore Programs</a>
+  </div>
+</section>
 
-                <div class="strength__row row">
-                    <div class="col-sm-6 col-md-6 "><img class="img-fluid mb-4" src="assets\images\class-strength.png" alt="Strength" width="460px" height="105px"></div>
-                    <div class="col-sm-6 col-md-6 ">
-                        <h1 class="h1 title-2 mb-4">Strength Training</h1>
-                        <p class="section-text mb-4">Step into the empowering world of strength training, where each lift is a testament to your potential. Feel the exhilaration as you sculpt your body and fortify your mind with each repetition. In this journey of strength, every effort propels you closer to your strongest, most resilient self.</p>
-                        <a href="#" class="btn btn-primary">JOIN NOW!</a>
-                    </div>
-                </div>
+<!-- Classes Section -->
+<section id="strength" class="class-section py-5 bg-light mt-4 mb-5">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-md-6">
+              <h1 class="h1 title-2" data-aos="flip-up" data-aos-delay="1400" data-aos-duration="1500">Strength Training</h1>
+              <p class="section-text" data-aos="fade-right" data-aos-delay="2000" data-aos-duration="1500">Step into the empowering world of strength training, where each lift is a testament to your potential.</p>
+              <a href="#" class="btn btn-primary" data-aos="flip-up" data-aos-delay="2400" data-aos-duration="1500">Join Now</a>
+          </div>
+          <div class="col-md-6 text-center">
+              <img src="assets/images/strength.jpg" class="img-fluid rounded" alt="Strength Training" data-aos="fade-left" data-aos-delay="2400" data-aos-duration="1500">
+          </div>
+      </div>
+  </div>
+</section>
 
-                <div class="fat__row row">
-                    <div class="col-sm-6 col-md-6 "><img class="img-fluid mb-4" src="assets\images\class-fat.png" alt="fat"></div>
-                    <div class="col-sm-6 col-md-6 ">
-                        <h1 class="h1 title-2 mb-4">Fat Burning</h1>
-                        <p class="section-text mb-4">Embark on a dynamic journey of fat burning, where every workout ignites your metabolism and transforms your body. Feel the intensity as you torch calories, sculpting a leaner, stronger physique with each session. Join us and unleash your body's full potential in the exhilarating pursuit of fitness and vitality.</p>
-                        <a href="#" class="btn btn-primary">JOIN NOW!</a>
-                    </div>
-                </div>
+<section id="fat-burning" class="class-section py-5 mb-5">
+  <div class="container">
+      <div class="row align-items-center flex-md-row-reverse">
+          <div class="col-md-6">
+              <h1 class="h1 title-2" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1500">Fat Burning</h1>
+              <p class="section-text" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1500">Embark on a dynamic journey of fat burning, where every workout ignites your metabolism.</p>
+              <a href="#" class="btn btn-primary" data-aos="flip-up" data-aos-delay="1000" data-aos-duration="1500">Join Now</a>
+          </div>
+          <div class="col-md-6 text-center">
+              <img src="assets/images/fat.jpg" class="img-fluid rounded" alt="Fat Burning" data-aos="fade-right" data-aos-delay="1400" data-aos-duration="1500">
+          </div>
+      </div>
+  </div>
+</section>
 
-                <div class="hiit__row row">
-                    <div class="col-sm-6 col-md-6 "><img class="img-fluid mb-4" src="assets\images\class-hiit.png" alt="fat"></div>
-                    <div class="col-sm-6 col-md-6 ">
-                        <h1 class="h1 title-2 mb-4">HIIT Training</h1>
-                        <p class="section-text mb-4">Experience the electrifying intensity of HIIT training, where each session pushes your limits and maximizes results. Embrace the exhilaration as you power through high-intensity intervals, torching calories and sculpting a stronger, fitter you. Join us and elevate your fitness journey with the heart-pounding thrill of HIIT</p>
-                        <a href="#" class="btn btn-primary">JOIN NOW!</a>
-                    </div>
-                </div>
-
-            </div>
-        </section>   
-
-
-
+<section id="hiit" class="class-section py-5 bg-light mb-5">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-md-6">
+              <h1 class="h1 title-2" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1500">HIIT Training</h1>
+              <p class="section-text" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1500">Experience the electrifying intensity of HIIT training, where each session pushes your limits.</p>
+              <a href="#" class="btn btn-primary" data-aos="flip-up" data-aos-delay="1000" data-aos-duration="1500">Join Now</a>
+          </div>
+          <div class="col-md-6 text-center">
+              <img src="assets/images/hiit.jpg" class="img-fluid rounded" alt="HIIT Training" data-aos="fade-left" data-aos-delay="1400" data-aos-duration="1500">
+          </div>
+      </div>
+  </div>
+</section>
 
 
     <!-- 
@@ -316,5 +335,14 @@
     -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>      
+
+    
+    <!-- 
+    - Animation On Scroll
+  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

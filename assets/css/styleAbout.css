@@ -459,7 +459,6 @@
     color: var(--cadet-gray);
     font-family: var(--ff-catamaran);
     text-align: center;
-    height: 50vh;
     padding-block-start: calc(var(--section-padding) + 80px);
     padding-block-end: 0;
     overflow: hidden;
@@ -471,6 +470,10 @@
 
   .title-1{
     color: var(--white);
+  }
+
+  .our-story-col1{
+    margin-bottom: 20rem;
   }
 
 
