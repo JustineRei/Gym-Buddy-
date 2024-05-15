@@ -1,27 +1,3 @@
-<?php 
-session_start();
-error_reporting(0);
-include 'include/config.php';
-$uid=$_SESSION['uid'];
-
-if(isset($_POST['submit']))
-{ 
-$pid=$_POST['pid'];
-
-
-$sql="INSERT INTO tblbooking (package_id,userid) Values(:pid,:uid)";
-
-$query = $dbh -> prepare($sql);
-$query->bindParam(':pid',$pid,PDO::PARAM_STR);
-$query->bindParam(':uid',$uid,PDO::PARAM_STR);
-$query -> execute();
-echo "<script>alert('Package has been booked.');</script>";
-echo "<script>window.location.href='booking-history.php'</script>";
-
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,7 +69,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
         <ul class="navbar-list">
 
           <li>
-            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+            <a href="index__customer.html" class="navbar-link active" data-nav-link>Home</a>
           </li>
 
           <li>
@@ -101,22 +77,18 @@ echo "<script>window.location.href='booking-history.php'</script>";
           </li>
 
           <li>
-            <a href="classes.html" class="navbar-link" data-nav-link>Classes</a>
+            <a href="classes__.customer.html" class="navbar-link" data-nav-link>Programs</a>
           </li>
 
           <li>
-            <a href="pricing.html" class="navbar-link" data-nav-link>Pricing</a>
-          </li>
-
-          <li>
-            <a href="contact.html" class="navbar-link" data-nav-link>Contact Us</a>
+            <a href="contact__customer.html" class="navbar-link" data-nav-link>Contact Us</a>
           </li>
 
         </ul>
 
       </nav>
 
-      <a href="#" class="btn btn-secondary">Join Now</a>
+      <a href="index.html" class="btn btn-secondary">Logout</a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <span class="line"></span>
@@ -154,7 +126,7 @@ echo "<script>window.location.href='booking-history.php'</script>";
               It doesnt matter if your goal is to get stronger, bum fat, or to just stay fit our programs will guide you every step of the way.
             </p>
 
-            <a href="bmiCalc.html" class="btn btn-primary" data-aos="flip-up" data-aos-delay="800" data-aos-duration="1000">Calculate your BMI</a>
+            <a href="bmiCalc.php" class="btn btn-primary" data-aos="flip-up" data-aos-delay="800" data-aos-duration="1000">Calculate your BMI</a>
 
           </div>
 
